@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="rounded m-2">
+        <div class="d-flex pt-3 bd-highlight">
+            <div class="p-2 bg-transparent flex-fill text-dark" style="font-family: 'Prompt', sans-serif;">
+                <h1>สิ่งที่สนใจ</h1>
+            </div>
+        </div>
+        <div>
+            <div class="card" >
+                <div class="card-header bg-primary text-white" align="center">
+                    <h3>Football</h3>
+                </div><br>
+            <center><img src="{% static 'images/football.jpg' %}" style="width:350px;"></center>
+            <div class="card-body">
+                <h4 class="card-title"><b>Football</b></h4>
+                <p class="card-text" style="font-family: 'Prompt', sans-serif;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ฟุตบอล(association football) หรือ ซอกเกอร์(soccer)
+                     เป็นกีฬาประเภททีมที่เล่นระหว่างสองทีม โดยแต่ละทีมมีผู้เล่น 11 คน โดยใช้ลูกบอลเป็นที่ยอมรับอย่างแพร่หลายว่าเป็นกีฬาที่เป็นที่นิยมมากที่สุดในโลก</p>
+                <p class="card-text" style="font-family: 'Prompt', sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;โดยจะเล่นในสนามหญ้าแนวยาว(สี่เหลี่ยมผืนผ้า) หรือ สนามหญ้าเทียม
+                    โดยมีประตูอยู่กึ่งกลางที่ปลายสนามทั้งสองฝั่ง เป้าหมายคือทำคะแนนโดยการใช้เท้าพาลูกฟุตบอลให้เข้าไปยังประตูของฝ่ายตรงข้าม
+                    ในการเล่นทั่วไป ผู้รักษาประตูจะเป็นผู้เล่นเพียงคนเดียวที่สามารถใช้มือหรือแขนกับลูกฟุตบอลได้โดยมีข้อแม้ว่าห้ามออกนอกเขตโทษ หรือกรอบ 25 หลาหน้าปากประตู
+                    ส่วนผู้เล่นอื่น ๆ จะใช้เท้าในการเตะลูกฟุตบอลไปยังตำแหน่งที่ต้องการ บางครั้งอาจใช้ลำตัว หรือ ศีรษะ เพื่อสกัดลูกฟุตบอลที่ลอยอยู่กลางอากาศ
+                    โดยทีมที่พาลูกฟุตบอลเข้าประตูฝ่ายตรงข้ามได้มากกว่าจะเป็นผู้ชนะ ถ้าคะแนนเท่ากันให้ถือว่าเสมอ แต่ในบางเกมที่เสมอกันในช่วงเวลาปกติแล้วต้องการหาผู้ชนะจึงต้องมี
+                    การต่อเวลาพิเศษและ/หรือดวลลูกโทษขึ้นอยู่กับกฎระเบียบของรายการแข่งขัน</p>
+            </div>
+            <div class="card" >
+                <div class="card-header bg-primary text-white" align="center">
+                    <h3>Basketball</h3>
+                </div><br>
+            <center><img src="{% static 'images/basketball.jpg' %}" style="width:350px;"></center>
+            <div class="card-body">
+                <h4 class="card-title"><b>Basketball</b></h4>
+                <p class="card-text" style="font-family: 'Prompt', sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;บาสเกตบอล (Basketball) เป็นกีฬาชนิดหนึ่งซึ่งแบ่งผู้เล่นเป็น 2 ทีม
+                    แต่ละทีมประกอบด้วยผู้เล่น 5 คนพยายามทำคะแนนโดยการโยนลูกเข้าห่วงหรือตะกร้า ภายใต้กติกาการเล่นมาตรฐาน</p>
+                <p class="card-text" style="font-family: 'Prompt', sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;บาสเกตบอลเป็นกีฬาที่เล่นในร่มเป็นหลัก สนามที่ใช้เล่นมีขนาดค่อนข้างเล็ก
+                    คะแนนจะได้จากการโยนลูกเข้าห่วงจากด้านบน (ชูต, shoot) ทีมที่มีคะแนนมากกว่าในตอนจบเกมจะเป็นฝ่ายชนะ สามารถนำพาลูกโดยการกระเด้งกับพื้น
+                    (เลี้ยงลูก, dribble) หรือส่งลูกกันระหว่างเพื่อนร่วมทีม เกมจะห้ามการกระทบกระแทกที่ทำให้เป็นฝ่ายได้เปรียบ (ฟาวล์, foul)
+                    และมีกฎข้อบังคับเกี่ยวกับการครองบอล</p>
+            </div>
+            <div class="card" >
+                <div class="card-header bg-primary text-white" align="center">
+                    <h3>Esports</h3>
+                </div><br>
+            <center><img src="{% static 'images/esport.jpg' %}" style="width:350px;"></center>
+            <div class="card-body">
+                <h4 class="card-title" ><b>Esports</b></h4>
+                <p class="card-text" style="font-family: 'Prompt', sans-serif;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;อีสปอร์ต (Esports) หรือ กีฬาอิเล็กทรอนิกส์ (electronic sports)
+                    คือกีฬาประเภทบุคคลหรือทีมชนิดหนึ่ง กรมกีฬาได้จัดEsportเป็นส่วนหนึ่งของกีฬาที่เกี่ยวกับกับการแข่งขันวิดีโอเกม โดยมีการแข่งตามประเภทของวิดิโอเกมเช่น
+                    เกมวางแผนการรบ, เกมต่อสู้, เกมยิงมุมมองบุคคลที่หนึ่ง, โมบา , เกมอินดี้ การแข่งขันนั้นแบ่งออกเป็นระดับสมัครเล่น กึ่งอาชีพและระดับมืออาชีพ
+                    รวมถึงมีรายการแข่งขันและลีกต่าง ๆ เช่นเดียวกับกีฬาทั่วไป</p>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    <br><br><br>
+    </div>
+
+{% endblock %}

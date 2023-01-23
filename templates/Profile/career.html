@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="rounded m-3">
+
+        <div class="d-flex pt-3 bd-highlight">
+            <div class="p-2 bg-primary flex-fill text-white" style="font-family: 'Prompt', sans-serif;">
+             <h3> อาชีพที่อยากเป็น</h3>
+            </div>
+        </div>
+        <div >
+            <img src="{% static 'images/programmer.jpeg' %}" class="rounded mx-auto pt-3 d-block" alt="pg" style="max-width:80%; height:auto;">
+        </div>
+        <div class="m-3 pt-3 fs-5" style="font-family: 'Prompt', sans-serif;">
+            <p><b>&emsp;โปรแกรมเมอร์ (programmer)</b></p>
+            <p>&emsp;&emsp;นักเขียนโปรแกรมบนเว็บไซต์ที่มีความสามารถในการเขียนโปรแกรมทางคอมพิวเตอร์ด้วยภาษา VB, PHP, Java เป็นต้น ที่ทำงานร่วมกับ Web Developer
+                และ Web Disigner ซึ่งจะทำให้การออกแบบเว็บไซต์ได้ตรงความต้องการ</p>
+        </div>
+        <div >
+            <img src="{% static 'images/barista.jpg' %}" class="rounded mx-auto pt-3 d-block" alt="pg" style="max-width:80%; height:auto;">
+        </div>
+        <div class="m-3 pt-3 fs-5" style="font-family: 'Prompt', sans-serif;">
+            <p><b>&emsp;BARISTA  (บาริสต้า)</b></p>
+            <p>&emsp;&emsp;คนที่ให้บริการกาแฟหรืออาหารเบาๆให้แก่ลูกค้าที่อยู่ในร้านกาแฟหรือBar โดยบาริสต้าจะต้องมีความรู้และเทคนิคในการควบคุมเครื่องชงกาแฟและเครื่องบดเมล็ดกาแฟ
+                รวมไปถึงเทคนิคในการให้บริการกาแฟคุณภาพเยี่ยม เช่น การทำช็อตเอสเพรสโซ่ได้รสชาติเยี่ยม ฟองนมที่เนียนนุ่ม และเสิร์ฟในอุณหภูมิที่เหมาะสม และเทคนิคในการเสิร์ฟ
+                ลาเต้อาร์ท </p>
+        </div>
+
+<br><br><br>
+    </div>
+{% endblock %}

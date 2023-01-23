@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+
+<div class="rounded m-3 text-primary" style="height: 100%;">
+<div id="Interval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#Interval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#Interval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#Interval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" style="width:100%; height:500px;">
+    <div class="carousel-item active">
+      <img src="{% static 'images/1.jpg' %}" class="mx-auto d-block w-100" alt="pic1" style="max-width:1000px;">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/2.png' %}" class="d-block w-100" alt="pic2">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'images/3.jpg' %}" class="mx-auto d-block w-100" alt="pic3" style="width:auto;">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#Interval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#Interval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="jumbotron text-center" style="font-family: Mochiy Pop P One;">
+    <br>
+<h1>ยินดีต้อนเข้าสู่เว็บไซต์</h1>
+</div>
+<p class="p-3"  style="font-family: 'Prompt', sans-serif;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Digital Business</b>
+   &nbsp;  เป็นการนำเอาเทคโนโลยีต่างๆ เข้ามาพัฒนาเพื่อเพิ่มความสะดวกสบายให้ทั้งผู้ประกอบการและผู้บริโภคในการเลือกซื้อสินค้า หรือบริการต่างๆ ซึ่งมีจุดหมายหลักคือการเพิ่มยอดขาย เพิ่มรายได้นั่นเอง เช่น การนำเว็บไซต์ออนไลน์มาช่วยในการเข้าถึงผู้บริโภคยุคใหม่ที่ชอบใช้โลกอินเตอร์เน็ต ,การสร้างช่องทางขายผ่านสื่อ Social mediaต่างๆ เช่น Facebook, Instagram และการทำโฆษณารวมไปถึงการสั่งซื้อและจัดส่งสินค้าในแบบ online เป็นต้น
+</p>
+
+</div>
+{% endblock %}

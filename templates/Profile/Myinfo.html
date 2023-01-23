@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="rounded m-3 fs-6" style="background-color: white; height: 100%; font-family: 'Prompt', sans-serif;">
+        <div class="card" style="width:90%">
+            <div class="card-header bg-primary text-white">
+                    <h4>ประวัติส่วนตัว</h4>
+                </div>
+        </div>
+        <div class="m-2 pt-2">
+            <img src="{% static 'images/pao.jpg' %}" class="rounded float-end img-thumbnail border border-info" alt="mypic" width="300">
+         <div class="row pt-3">
+          <div class="col-lg-8">
+            <b><p>นายเกียรติยศ เกรียงไกรวรรณ</p>
+              <p>ชื่อเล่น เปา</p>
+              <p>เกิดวันที่ 10 กันยายน 2543</p>
+              <p>อายุ 22 ปี</p>
+              <p>ที่อยู่ 77/47 หมู่ 5</p>
+                <p>ต.หนองบัว อ.เมือง</p>
+              <p> จ.อุดรธานี 41000</p>
+              <br>
+            </b>
+          </div>
+             <div class="col-lg-8">
+                 <b><p>Mr.Kaittiyos Kraingkraiwan</p>
+                 <p>NickName: Pao</p>
+                 <p>Date of Birth: 10 September 2000</p>
+                 <p>Age: 22 Years old</p><p>77/47 Moo 5</p>
+                <p>Nongbua ,Meaung</p>
+              <p> Udonthani 41000</p></b>
+             </div>
+         </div>
+<div>
+        <div class="row pt-5 text-center">
+            <div class="col-lg-1">
+                <a href="https://www.facebook.com/profile.php?id=100080099619934" >
+                    <img src="{% static 'images/fb1.png'%}" width="100px" alt="fb">
+                    <h5>Facebook</h5>
+                </a>
+            </div>
+           <div class="col-lg-4">
+                 <a href="https://www.instagram.com/_ppao/">
+                    <img src="{% static 'images/ig.png'%}" width="100px" alt="fb">
+                    <h5>Instagram</h5>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+        </div>
+    </div>
+{% endblock %}
